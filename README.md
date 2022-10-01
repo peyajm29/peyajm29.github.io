@@ -1,1 +1,1 @@
-This is the source code to my personal academic website: https://peyajm.github.io/ .
+This is the source code to Peya Mowar's public academic website: https://peyajm.github.io/. The template is borrowed from Jon Barron: https://jonbarron.info.
