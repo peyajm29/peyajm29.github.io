@@ -1,1 +1,1 @@
-This is the source code to my personal academic website: https://peyajm.gihub.io/ .
+This is the source code to my personal academic website: https://peyajm.github.io/ .
