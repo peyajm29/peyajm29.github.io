@@ -126,15 +126,17 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-.container {
-  width:1000px;
-  margin:0;
-  padding:10px 25px;
-  border-left:200px solid #ccc;
-  border-right:200px solid #ccc;
-  background:#fff; 
-  position: relative;
-}
+@media only screen and (min-width: 1025px) {
+        .container {
+          width:1000px;
+          margin:0;
+          padding:10px 25px;
+          border-left:200px solid #ccc;
+          border-right:200px solid #ccc;
+          background:#fff; 
+          position: relative;
+        }
+    } 
 
 span.highlight {
   background-color: #ffffd0;
