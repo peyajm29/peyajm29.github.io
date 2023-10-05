@@ -136,14 +136,12 @@ name {
           top: 50%;
           left: 50%;
           transform: translate(-50%, 0%);
-          width:1000px;
+          width:800px;
           margin:0;
           padding:10px 25px;
-          border-left:200px solid #ccc;
-          border-right:200px solid #ccc;
-          border-left: 200px solid;
-          border-right: 200px solid;
-          border-image: url('images/bd.png') 150 round;
+          border-left: 250px solid;
+          border-right: 250px solid;
+          border-image: url('images/bd.png') 150 500 round;
           background:#fff; 
           position: relative;
         }
