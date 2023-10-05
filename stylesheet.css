@@ -131,7 +131,7 @@ name {
   visibility: hidden;
 }
 
-@media only screen and (min-width: 1000px) {
+/*@media only screen and (min-width: 800px) {
         .container {
           top: 50%;
           left: 50%;
@@ -139,14 +139,14 @@ name {
           width:800px;
           margin:0;
           padding:10px 25px;
-          border-left: 250px solid;
-          border-right: 250px solid;
-          border-image: url('images/bd.png') 150 500 round;
+          border-left: 300px solid;
+          border-right: 300px solid;
+          border-image: url('images/bd1.png') 150 500 round;
           background:#fff; 
           position: relative;
         }
     } 
-
+*/
 span.highlight {
   background-color: #ffffd0;
 }
