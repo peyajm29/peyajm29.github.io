@@ -65,7 +65,7 @@
 
 a {
   color: #1772d0;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:focus,
@@ -81,7 +81,8 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 14px;
+  /* add underline to links */
 }
 
 strong {
