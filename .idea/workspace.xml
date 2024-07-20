@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383b113e-7e50-4944-acd0-19c3206dc78f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/dragon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ack.html" beforeDir="false" afterPath="$PROJECT_DIR$/ack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/misc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,21 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <hideBySeverity>
-      <option value="11" />
-      <option value="12" />
-      <option value="13" />
-      <option value="14" />
-      <option value="15" />
-      <option value="16" />
-    </hideBySeverity>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -45,23 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/peyamowar/GitHub/peyajm29.github.io/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/peyamowar/GitHub/peyajm29.github.io/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
@@ -199,7 +189,8 @@
       <workItem from="1720891056421" duration="247000" />
       <workItem from="1721142225344" duration="995000" />
       <workItem from="1721402996285" duration="4161000" />
-      <workItem from="1721409622137" duration="297000" />
+      <workItem from="1721409622137" duration="913000" />
+      <workItem from="1721485912629" duration="10075000" />
     </task>
     <servers />
   </component>
