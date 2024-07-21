@@ -164,13 +164,6 @@ strong {
         }
     }
 
-@media screen and (max-width:800px) {
-    iframe[src*="google.com/maps"] {
-        width: 100% !important;
-        height: 500px;
-    }
-}
-
 span.highlight {
     background-color: #ffffd0;
 }
@@ -224,4 +217,25 @@ nav ul li a:hover {
 
 h3 {
     font-weight: normal;
+}
+
+#map-placeholder {
+    width: 650px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background: url('assets/images/static-map.png') no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (max-width:800px) {
+    iframe[src*="google.com/maps"] {
+        width: 100% !important;
+        height: 500px;
+    }
+    #map-placeholder {
+        height: 500px;
+        width: 100%
+    }
 }
