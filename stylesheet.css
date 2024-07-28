@@ -115,12 +115,20 @@ strong {
 }
 
 @media (max-width: 800px) {
+    .body-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .body-container table {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
     .body-container .news {
         width: 80%;
-        text-align: left;
-    }
-    .body-container .news h3 {
-        width: 125%;
         text-align: left;
     }
     .body-container .news .date {
@@ -150,19 +158,33 @@ strong {
         display: block;
         width: 100%;
     }
+    .body-container .news h2 {
+        width: 125%;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+    }
+    h1, h2, h3 {
+        font-size: inherit;
+        font-weight: inherit;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 800px) {
-        .container {
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, 0%);
-          width:800px;
-          margin:0;
-          background:#fff;
-          position: relative;
-        }
+    .container {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 800px;
+        margin: 0;
+        background: #fff;
+        position: relative;
     }
+}
 
 span.highlight {
     background-color: #ffffd0;
@@ -215,8 +237,16 @@ nav ul li a:hover {
     margin-top: 0;
 }
 
-h3 {
-    font-weight: normal;
+h1, h2, h3 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
 }
 
 #map-placeholder {
@@ -238,4 +268,8 @@ h3 {
         height: 500px;
         width: 100%
     }
+}
+
+.no-break {
+    margin-bottom: 0;
 }
