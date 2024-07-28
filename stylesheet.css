@@ -128,7 +128,7 @@ strong {
         box-sizing: border-box;
     }
     .body-container .news {
-        width: 80%;
+        width: 100%;
         text-align: left;
     }
     .body-container .news .date {
@@ -140,26 +140,23 @@ strong {
     }
     .body-container .image-container {
         order: -1;
-        padding-top: 15%;
-        padding-left: 55%;
-        margin-bottom: -15%;
         align-content: center;
-        width: 60%;
+        width: 100%;
     }
-    .body-container .image-container p {
-        margin-left: -25%;
-        width: 150%;
+    .body-container .image-container img {
+        width: 30%;
+        height: auto;
     }
     .body-container tr {
         display: block;
-        width: 150%;
+        width: 100%;
     }
     .body-container td {
         display: block;
         width: 100%;
     }
     .body-container .news h2 {
-        width: 125%;
+        width: 100%;
         text-align: center;
     }
     h2 {
@@ -171,6 +168,12 @@ strong {
         font-weight: inherit;
         margin: 0;
         padding: 0;
+    }
+    .project-image img{
+        width: 55%;
+        height: auto;
+        display: block;
+        margin: auto;
     }
 }
 
@@ -184,6 +187,50 @@ strong {
         background: #fff;
         position: relative;
     }
+    .body-container .news .date {
+        width: 20%;
+    }
+    .bio {
+        padding-left:1%;
+        padding-right:2.5%;
+        width:63%;
+        vertical-align:middle;
+    }
+    .profile {
+        padding-left:1%;
+        width:37%;
+        max-width:40%;
+        transform:translateY(-15%);
+    }
+    .image-container img{
+        width: 75%;
+        height: auto;
+    }
+    .project-image img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .project-container {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .project-image {
+        align-items: center;
+        flex: 0 0 30%;
+    }
+
+    .project-desc {
+        flex: 1;
+        padding: 1%;
+    }
+}
+
+.papertitle {
+    font-weight: bold;
 }
 
 span.highlight {
@@ -269,7 +316,6 @@ h2 {
         width: 100%
     }
 }
-
 .no-break {
     margin-bottom: 0;
 }
