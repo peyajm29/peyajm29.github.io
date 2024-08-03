@@ -170,7 +170,8 @@ strong {
         padding: 0;
     }
     .project-image img{
-        width: 55%;
+        width: 50%;
+        padding-bottom: 2%;
         height: auto;
         display: block;
         margin: auto;
@@ -220,12 +221,12 @@ strong {
 
     .project-image {
         align-items: center;
-        flex: 0 0 30%;
+        flex: 0 0 32%;
     }
 
     .project-desc {
         flex: 1;
-        padding: 1%;
+        padding: 2%;
     }
 }
 
