@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="canonical" href="https://peyajm29.github.io/">
-    <link rel="icon" href="assets/images/dragon.png" type="image/png">
+    <link rel="icon" href="assets/media/dragon.png" type="image/png">
 </head>
 
 <body>
@@ -66,7 +66,7 @@
                 </tr>
                 <tr  class="project-container" style = "align-content: center">
                     <td class="project-image" style="padding-top:2%">
-                        <img alt="A three-panel comic by Forrest Brazeal. The first panel shows a sad engineer facing a large pile of complexity labeled languages, toolchains, infra with an arrow pointing to apps. The second panel, titled What People Think AI Will Do, shows a happy non-engineer next to AI which points to a hidden pile of complexity that no longer matters and then to apps. The third panel, titled What Is Actually Going to Happen, shows a sad engineer next to a new pile of complexity labeled AI pipelines, templates, etc. leading to AI, then an old pile of complexity, and a sadder engineer, before pointing to apps." src="assets/images/Pile_Of_Complexity.png">
+                        <img alt="A three-panel comic by Forrest Brazeal. The first panel shows a sad engineer facing a large pile of complexity labeled languages, toolchains, infra with an arrow pointing to apps. The second panel, titled What People Think AI Will Do, shows a happy non-engineer next to AI which points to a hidden pile of complexity that no longer matters and then to apps. The third panel, titled What Is Actually Going to Happen, shows a sad engineer next to a new pile of complexity labeled AI pipelines, templates, etc. leading to AI, then an old pile of complexity, and a sadder engineer, before pointing to apps." src="assets/media/Pile_Of_Complexity.png">
                     </td>
                     <td class="project-desc">
                         <table><tbody>
@@ -141,7 +141,7 @@
                 </tr>
                 <tr  class="project-container" style = "align-content: center">
                     <td class="project-image">
-                        <img alt="A sketch of two hands holding an Indian newspaper. The newspaper is divided into various segments, such as articles, headlines, and headers, marked by different bounding boxes shaded in pastel colors like pink, green, and purple. These shaded bounding boxes represent the visualization output from an image segmentation system used for digitizing print newspapers." src="assets/images/news-segmentation.png">
+                        <img alt="A sketch of two hands holding an Indian newspaper. The newspaper is divided into various segments, such as articles, headlines, and headers, marked by different bounding boxes shaded in pastel colors like pink, green, and purple. These shaded bounding boxes represent the visualization output from an image segmentation system used for digitizing print newspapers." src="assets/media/news-segmentation.png">
                     </td>
                     <td class="project-desc">
                         <table><tbody>
@@ -157,7 +157,7 @@
                                 <br>
                                 <em>Forthcoming at ASSETS</em>, 2024
                                 <br>
-                                <a href="">video</a> /
+                                <a href="#" onclick="openVideo()">video</a> /
                                 <a href="assets/documents/assets24f-sub5987-cam-i26.pdf">paper</a>
                                 <p style="margin-top: 0; padding: 0">
                                     A qualitative study with BVI participants on their news consumption practices providing insights for designing accessible digital news platforms.                                </p>
@@ -206,5 +206,18 @@
     </table>
 
 </div>
+
+<script>
+    function openVideo() {
+        const videoWindow = window.open('', '_blank');
+        videoWindow.document.write(`
+        <video controls width="650">
+            <source src="assets/media/news.mp4" type="video/mp4">
+            <track src="assets/media/captions.vtt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video tag.
+        </video>
+    `);
+    }
+</script>
 </body>
 </html>
