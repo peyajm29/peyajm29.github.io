@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383b113e-7e50-4944-acd0-19c3206dc78f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/documents/Copilot_ASSETS__Poster.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,6 +301,8 @@
       <workItem from="1722706379281" duration="1680000" />
       <workItem from="1722880092934" duration="1836000" />
       <workItem from="1723177999404" duration="1163000" />
+      <workItem from="1723688038123" duration="158000" />
+      <workItem from="1723688925658" duration="30000" />
     </task>
     <servers />
   </component>
