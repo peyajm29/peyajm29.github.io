@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383b113e-7e50-4944-acd0-19c3206dc78f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/media/captions.vtt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/media/news.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/documents/assets24e-sub1034-cam-i26.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ack.html" beforeDir="false" afterPath="$PROJECT_DIR$/ack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/citations.bib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/DALL·E 2024-07-12 16.11.13.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/DALL·E 2024-07-12 16.11.13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Pile_Of_Complexity.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/Pile_Of_Complexity.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/dragon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/news-segmentation.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/news-segmentation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/news_segmentation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pmowar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/pmowar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/static-map.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/static-map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/documents/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/documents/CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/documents/Copilot_ASSETS__Poster.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/misc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/peyamowar/GitHub/peyajm29.github.io/assets/media",
+    "last_opened_file_path": "/Users/peyamowar/GitHub/peyajm29.github.io/assets/documents",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,8 +58,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/media" />
       <recent name="$PROJECT_DIR$/assets/documents" />
+      <recent name="$PROJECT_DIR$/assets/media" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -414,7 +407,8 @@
       <workItem from="1723177999404" duration="1163000" />
       <workItem from="1723688038123" duration="158000" />
       <workItem from="1723688925658" duration="58000" />
-      <workItem from="1723688993445" duration="829000" />
+      <workItem from="1723688993445" duration="854000" />
+      <workItem from="1723863999433" duration="617000" />
     </task>
     <servers />
   </component>

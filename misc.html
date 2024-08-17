@@ -15,6 +15,7 @@
 <div class="container">
 
     <!--    Header  -->
+    <header>
     <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0">
         <td style="padding:0">
@@ -28,7 +29,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="padding:0%;width:63%;vertical-align:middle">
+                <td style="padding:0;width:63%;vertical-align:middle">
                     <nav>
                         <ul>
                             <li><a href="../"><h1>About</h1></a></li> &nbsp/&nbsp
@@ -40,8 +41,10 @@
                 </td>
             </tr>
             </tbody></table> </table>
+    </header>
 
     <!--   Contents  -->
+    <main>
     <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0">
         <td style="padding:0">
@@ -55,16 +58,16 @@
 
                     <h2>Travel</h2>
                     <p style="text-align: center;">I love to travel and explore new places. I dream of visiting every country in my lifetime. Here is my progress so far:</p>
-                    <div id="map-placeholder" onclick="loadMap()" aria-label="World map with places I have visited annotated to denote my travel progress. Click to load the interactive Google Maps version.">
+                    <div id="map-placeholder" role="img" onclick="loadMap()" aria-label="World map with places I have visited annotated to denote my travel progress. Click to load the interactive Google Maps version.">
                     <script>
                         function loadMap() {
-                            var iframe = document.createElement('iframe');
+                            const iframe = document.createElement('iframe');
                             iframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1kjNp-seygaYpSBOvV47WYVhl7TQjipM&ehbc=2E312F&noprof=1";
                             iframe.width = "650";
                             iframe.height = "300";
                             iframe.loading = "lazy";
                             iframe.style.border = "2";
-                            var placeholder = document.getElementById('map-placeholder');
+                            const placeholder = document.getElementById('map-placeholder');
                             placeholder.parentNode.replaceChild(iframe, placeholder);
                         }
                     </script>
@@ -89,7 +92,7 @@
         </td>
     </tr>
     </table>
-
+    </main>
 </div>
 </body>
 </html>

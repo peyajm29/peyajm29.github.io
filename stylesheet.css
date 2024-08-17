@@ -323,7 +323,7 @@ h2 {
     margin: auto;
     text-align: center;
     cursor: pointer;
-    background: url('assets/images/static-map.png') no-repeat center center;
+    background: url('assets/media/static-map.png') no-repeat center center;
     background-size: cover;
 }
 
