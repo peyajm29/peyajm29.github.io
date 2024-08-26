@@ -117,7 +117,7 @@ strong {
 @media (max-width: 800px) {
     .body-container {
         width: 100%;
-        padding: 0;
+        padding: 25px;
         margin: 0;
         box-sizing: border-box;
     }
