@@ -77,7 +77,7 @@
                         <tr>
                             <td>
 <!--                                <a href="">-->
-                                    <span class="papertitle" style="color: brown">Find-Fix-Verify: What AI Coding Assistants Need to Know About Developers</span>
+                                    <span class="papertitle" style="color: brown">Making AI Coding Assistants Useful for Accessible Development Practices</span>
 <!--                                </a>-->
                                 <br>
                                 <strong>Peya Mowar</strong>,
@@ -107,7 +107,9 @@
                                 <br>
                                 <em>Forthcoming at ASSETS (Posters Track)</em>, 2024
                                 <br>
-                                <a href="assets/documents/assets24e-sub1034-cam-i26.pdf">paper</a>
+                                <a href="assets/documents/assets24e-sub1034-cam-i26.pdf">paper</a> /
+                                <a href="#" onclick="openTabVideo()">video</a> /
+                                <a href="assets/documents/tab2ac-slides.pdf">slides</a>
                                 <p style="margin-top: 0; padding: 0">
                                 </p>
                             </td>
@@ -123,7 +125,7 @@
                                 <em>ACM International Web for All Conference (W4A) Doctoral Consortium</em>, 2024
                                 <br>
                                 <a href="assets/documents/W4A_Doctoral_Consortium.pdf">abstract</a> /
-                                <a href="assets/documents/w4a-dc.pptx">slides</a>
+                                <a href="assets/documents/w4a-slides.pdf">slides</a>
 
                             </td>
                         </tr>
@@ -164,7 +166,8 @@
                                 <em>Forthcoming at ASSETS</em>, 2024
                                 <br>
                                 <a href="assets/documents/assets24f-sub5987-cam-i26.pdf">paper</a> /
-                                <a href="#" onclick="openVideo()">video</a>
+                                <a href="#" onclick="openNewsVideo()">video</a> /
+                                <a href="assets/documents/news-slides.pdf">slides</a>
                                 <p style="margin-top: 0; padding: 0">
                                     A qualitative study with BVI participants on their news consumption practices providing insights for designing accessible digital news platforms.                                </p>
                             </td>
@@ -214,17 +217,22 @@
 </div>
 
 <script>
-    function openSlides(event) {
-        event.preventDefault();
-        window.open('assets/documents/w4a-dc.pptx', '_blank');
-    }
-
-    function openVideo() {
+    function openTabVideo() {
         const videoWindow = window.open('', '_blank');
         videoWindow.document.write(`
-        <video controls width="650">
+        <video controls width="1080">
+            <source src="assets/media/tab.mp4" type="video/mp4">
+            <track src="assets/media/tab-captions.vtt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video tag.
+        </video>
+    `);
+    }
+    function openNewsVideo() {
+        const videoWindow = window.open('', '_blank');
+        videoWindow.document.write(`
+        <video controls width="1080">
             <source src="assets/media/news.mp4" type="video/mp4">
-            <track src="assets/media/captions.vtt" kind="subtitles" srclang="en" label="English">
+            <track src="assets/media/news-captions.vtt" kind="subtitles" srclang="en" label="English">
             Your browser does not support the video tag.
         </video>
     `);

@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00:00.960 --> 00:00:06.720
+Hi everyone, I am Peya Mowar, and I am 
+presenting our work “Tab to Autocomplete:
+
+00:00:06.720 --> 00:00:12.160
+The Effects of AI Coding 
+Assistants on Web Accessibility”.
+
+00:00:12.160 --> 00:00:14.760
+There are many efforts like guidelines, training,
+
+00:00:14.760 --> 00:00:20.160
+and tools designed to promote web 
+accessibility among developers. However,
+
+00:00:20.160 --> 00:00:25.360
+getting them to produce the accessible 
+(web) UI code still remains a challenge.
+
+00:00:25.360 --> 00:00:30.960
+This is because the success of these efforts 
+ultimately depends on developers' conscious
+
+00:00:30.960 --> 00:00:39.200
+efforts to engage with them i.e., they require 
+developers to still care about accessibility.
+
+00:00:39.200 --> 00:00:45.680
+And so while accessibility developer tools are 
+rarely adopted; today, developers are frequently
+
+00:00:45.680 --> 00:00:51.880
+adopting AI coding assistants, that represent 
+a significant breakthrough in programming.
+
+00:00:51.880 --> 00:00:58.320
+The workflow of AI-assisted development today 
+looks somewhat like this: Developers use these
+
+00:00:58.320 --> 00:01:05.560
+assistants to produce UI code, which is rendered 
+as a web UI and accessed by different users.
+
+00:01:05.560 --> 00:01:11.000
+And so we might presume that since these 
+developers are using AI assistants,
+
+00:01:11.000 --> 00:01:14.440
+if those assistants started 
+producing accessible code,
+
+00:01:14.440 --> 00:01:20.680
+then the UIs that developers would 
+create would be more accessible.
+
+00:01:20.680 --> 00:01:24.520
+Several aspects of this line 
+of reasoning have been unclear.
+
+00:01:24.520 --> 00:01:29.160
+First, it is unclear whether these AI 
+coding assistants can produce accessible
+
+00:01:29.160 --> 00:01:35.160
+code and have been trained to do so.
+Secondly, we also don't know the developer
+
+00:01:35.160 --> 00:01:40.640
+accessibility expertise required to 
+effectively use these assistants.
+
+00:01:40.640 --> 00:01:45.880
+To investigate these issues, we ran a 
+study in which 16 developers untrained
+
+00:01:45.880 --> 00:01:52.800
+in accessibility were tasked with building 
+web components with an AI coding assistant.
+
+00:01:52.800 --> 00:01:57.680
+The use of AI coding assistants has shown mixed 
+results in resolving some common accessibility
+
+00:01:57.680 --> 00:02:03.160
+issues such as adding alternative text or 
+maintaining appropriate colour contrast.
+
+00:02:03.160 --> 00:02:08.200
+We observed that AI coding assistants 
+can actually produce accessible code,
+
+00:02:08.200 --> 00:02:14.080
+but developers still need accessibility 
+expertise to make use of them effectively.
+
+00:02:14.080 --> 00:02:19.080
+These results suggest that future work could 
+usefully engage with how to make AI coding
+
+00:02:19.080 --> 00:02:24.800
+assistants better at producing accessible code 
+and how to reduce the developer awareness and
+
+00:02:24.800 --> 00:02:29.840
+expertise required to benefit from 
+the accessibility coding assistance.
+
+00:02:31.160 --> 00:02:36.720
+Please check out our paper for more details 
+and insights. Thank you for listening!
