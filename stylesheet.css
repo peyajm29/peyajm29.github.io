@@ -117,7 +117,6 @@ strong {
 @media (max-width: 800px) {
     .body-container {
         width: 100%;
-        padding: 25px;
         margin: 0;
         box-sizing: border-box;
     }
@@ -144,7 +143,7 @@ strong {
         width: 100%;
     }
     .body-container .image-container img {
-        width: 30%;
+        width: 35%;
         height: auto;
     }
     .body-container tr {
@@ -188,7 +187,7 @@ strong {
         transform: translate(-50%, 0%);
         width: 800px;
         margin: 0;
-        background: #fff;
+        /*background: #fff;*/
         position: relative;
     }
     .body-container .news .date {
@@ -333,7 +332,6 @@ h2 {
         height: 500px;
     }
     #map-placeholder {
-        height: 500px;
         width: 100%
     }
 }
