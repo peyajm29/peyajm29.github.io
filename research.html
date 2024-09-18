@@ -9,6 +9,15 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="canonical" href="https://peyajm29.github.io/">
     <link rel="icon" href="assets/media/dragon.png" type="image/png">
+    <style>
+        body {
+            background-color: rgba(255, 255, 255, 1);
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+        body.transition-in {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 
 <body>
@@ -230,6 +239,7 @@
         </video>
     `);
     }
+
     function openNewsVideo() {
         const videoWindow = window.open('', '_blank');
         videoWindow.document.write(`
@@ -240,6 +250,14 @@
         </video>
     `);
     }
+        document.addEventListener('DOMContentLoaded', function () {
+        if (document.referrer.includes('misc.html')) {
+        document.body.classList.add('transition-in');
+        setTimeout(function() {
+        document.body.classList.remove('transition-in');
+    }, 10);
+    }
+    });
 </script>
 </body>
 </html>
