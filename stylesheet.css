@@ -233,7 +233,7 @@ strong {
 .papertitle {
     font-weight: bold;
 }
-span.highlight {
+.highlight {
     background-color: #ffffd0;
 }
 nav ul {
