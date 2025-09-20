@@ -106,6 +106,51 @@ strong {
     visibility: hidden;
 }
 @media (max-width: 800px) {
+    .body-container-main {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .body-container-main table {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .body-container-main .news {
+        width: 100%;
+        text-align: left;
+    }
+    .body-container-main .news .date {
+        font-weight: bold;
+    }
+    .body-container-main .news .announcement {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .body-container-main .image-container {
+        order: -1;
+        align-content: center;
+        width: 100%;
+    }
+    .body-container-main .image-container img {
+        width: 35%;
+        height: auto;
+        padding-top: 25pt;
+    }
+    .body-container-main tr {
+        display: block;
+        width: 100%;
+    }
+    .body-container-main td {
+        display: block;
+        width: 100%;
+    }
+    .body-container-main .news h2 {
+        width: 100%;
+        text-align: center;
+    }
+
     .body-container {
         width: 100%;
         margin: 0;
@@ -136,6 +181,7 @@ strong {
     .body-container .image-container img {
         width: 35%;
         height: auto;
+        padding-top: 25pt;
     }
     .body-container tr {
         display: block;
@@ -180,14 +226,20 @@ strong {
         /*background: #fff;*/
         position: relative;
     }
-    .body-container .news .date {
+    .body-container-main {
+        padding-top: 0;
+        padding-bottom: 0px;
+        margin-top: -150px;
+        margin-bottom: -75px;
+    }
+    .body-container-main .news .date {
         width: 20%;
     }
     .bio {
         padding-left:1%;
         padding-right:2.5%;
         width:63%;
-        vertical-align:middle;
+        vertical-align:auto;
     }
     .profile {
         padding-left:1%;
@@ -198,7 +250,7 @@ strong {
     .image-container img{
         width: 75%;
         height: auto;
-        padding-top: 15%;
+        padding-top: 125%;
     }
     .project-image img{
         width: 100%;
@@ -226,9 +278,9 @@ strong {
     .ack-img {
         width: 75%;
     }
-    .top-padding-desktop {
+    /* .top-padding-desktop {
         padding-top: 5%;
-    }
+    } */
 }
 .papertitle {
     font-weight: bold;
